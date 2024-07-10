@@ -2,6 +2,7 @@
 name = "demo-rust-ffi"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 [[bin]]
 path = "src/c_main.rs"
